@@ -1,0 +1,20 @@
+{
+  "fitment": [["沙发","SOFAS"],["桌椅","TABLES/CHAIRS"],["床","BEDS"],["柜","STORAGE"],["更多","MORE"]],
+  "type":[["全部","单人位","双人位","三人位","休闲沙发","转角沙发"],
+          ["全部","餐桌","书桌","电脑桌","梳妆台","餐椅","凳子","休闲椅","户外椅","其他"],
+          ["全部","1.5米床","1.8米床","其他"],
+          ["全部","衣柜","储物柜","电视柜","书柜","鞋柜","床头柜","其他"],
+          ["全部","组合产品","日用家居","家居装饰","其他"]],
+  "goodsImg":[["sofa.jpg","img-left1.jpg","sofa.jpg","img-left1.jpg","sofa.jpg","img-left1.jpg","sofa.jpg","img-left1.jpg"],
+              ["chair.jpg","img-left1.jpg","chair.jpg","img-left1.jpg","chair.jpg","img-left1.jpg","chair.jpg","img-left1.jpg"],
+              ["bed.jpg","img-left1.jpg","bed.jpg","img-left1.jpg","bed.jpg","img-left1.jpg","bed.jpg","img-left1.jpg"],
+              ["cabinet.jpg","img-left1.jpg","cabinet.jpg","img-left1.jpg","cabinet.jpg","img-left1.jpg","cabinet.jpg","img-left1.jpg"],
+              ["more.jpg","img-left1.jpg","more.jpg","img-left1.jpg","more.jpg","img-left1.jpg","more.jpg","img-left1.jpg"]],
+  "goodsPrice":[[["580","480"],["60323","59323"],"344","1545","467","2555","767","1445"],
+                [["580","480"],["60323","59323"],"344","1545","467","2555","767","1445"],
+                [["580","480"],["60323","59323"],"344","1545","467","2555","767","1445"],
+                [["580","480"],["60323","59323"],"344","1545","467","2555","767","1445"],
+                [["580","480"],["60323","59323"],"344","1545","467","2555","767","1445"]],
+  "filter":["材质","成色","价格"],
+  "filter_li":[["实木","其他"],["9成新以上","7-9成新","5-7成新","其他"],["从低到高","从高到低"]]
+}

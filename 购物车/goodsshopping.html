@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="UTF-8">
+    <title>购物车</title>
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/goodsshopping.css">
+</head>
+<body>
+    <main>
+        <div class="content">
+            <!--购物车-->
+            <div class="shopping-car">
+                <h2>我的购物车</h2>
+                <div class="tableBox">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>
+                                    <span class="allChecked"></span>
+                                </th>
+                                <th class="w-320">商品信息</th>
+                                <th>单价</th>
+                                <th>数量</th>
+                                <th>金额</th>
+                                <th>操作</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class="check">
+                                    <span class="checked"></span>
+                                </td>
+                                <td class="car_info">
+                                    <div>
+                                        <img src="imgs/carpic01.jpg" alt="">
+                                        <p>家具名称</p>
+                                    </div>
+                                    <div class="info_p">
+                                        <p>产品尺寸</p>
+                                        <p>产品材质</p>
+                                        <p>产品颜色</p>
+                                    </div>
+                                </td>
+                                <td>￥
+                                    <span class="one-price">698</span>
+                                </td>
+                                <td class="t_count">
+                                    <button type="button" class="reduce">-</button>
+                                    <input type="text" value="2">
+                                    <button type="button" class="add">+</button>
+                                </td>
+                                <td>￥
+                                    <span class="moneys">2094</span>
+                                </td>
+                                <td>
+                                    <button class="delete">删除</button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="check">
+                                    <span class="checked"></span>
+                                </td>
+                                <td class="car_info">
+                                    <div>
+                                        <img src="imgs/carpic02.jpg" alt="">
+                                        <p>家具名称</p>
+                                    </div>
+                                    <div class="info_p">
+                                        <p>产品尺寸</p>
+                                        <p>产品材质</p>
+                                        <p>产品颜色</p>
+                                    </div>
+                                </td>
+                                <td>￥
+                                    <span class="one-price">558</span>
+                                </td>
+                                <td class="t_count">
+                                    <button type="button" class="reduce">-</button>
+                                    <input type="text" value="3">
+                                    <button type="button" class="add">+</button>
+                                </td>
+                                <td>￥
+                                    <span class="moneys">1580</span>
+                                </td>
+                                <td>
+                                    <button class="delete">删除</button>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <div class="payBox">
+                        <div class="payLeftBox">
+                            <div>
+                                <span class="allChecked"></span>
+                                <span>全选</span>
+                            </div>
+                            <div>
+                                <p>已选商品
+                                    <span class="payNum">2</span>
+                                    件
+                                </p>
+                            </div>
+                        </div>
+                        <div class="payRightBox">
+                            <div>
+                                <p class="total_p">
+                                    <span>合计</span>
+                                    (不含运费):
+                                </p>
+                                <span>￥
+                                    <span class="total_moneys">2588</span>
+                                </span>
+                            </div>
+                            <div>
+                                <button class="goPay">去结算</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+<script src="plugin/jquery.min.js"></script>
+<script src="js/goodsshopping.js"></script>
+</html>

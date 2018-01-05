@@ -1,0 +1,123 @@
+<section class="user_title">
+    <ul class="user_choose">
+        <li><a href="#" class="user_choose_hover">个人信息</a></li>
+        <li><a href="#">我的订单</a></li>
+        <li><a href="#">我的出售</a></li>
+        <li><a href="#">个人账户</a></li>
+        <li><a href="#">系统消息</a><i class="message_count"></i></li>
+    </ul>
+</section>
+<section id="user_info" class="checked_no checked">
+    <div class="user_set">
+        <div class="connect">
+            <label for="">联系人</label>
+            <input type="text" placeholder="姓名" class="width_128">
+            <input type="tel" placeholder="电话号码" class="width_256">
+        </div>
+        <div class="gander">
+            <label for="">性别</label>
+            <p><span class=" boy gander_check "></span><span>男</span></p>
+            <p><span class="girl gander_no_check"></span><span>女</span></p>
+        </div>
+        <div class="birthday">
+            <label for="">生日</label>
+            <div class="select">
+                <div class="year ul_father_re width_138 "></div>
+                <div class="month ul_father_re width_86"></div>
+                <div class="day ul_father_re width_86"></div>
+            </div>
+        </div>
+        <div class="like">
+            <label for="">家具偏好</label>
+            <div class="select">
+                <div class="width_186"></div>
+            </div>
+        </div>
+        <div class="edu">
+            <label for="">教育程度</label>
+            <div class="select">
+                <div class="width_186"></div>
+            </div>
+        </div>
+        <div class="work">
+            <label for="">所在行业</label>
+            <div class="select">
+                <div class="width_186"></div>
+            </div>
+        </div>
+        <div class="adda">
+            <label for="">所在地区</label>
+            <div class="select">
+                <div class="first width_120"></div>
+                <div class="second width_120"></div>
+                <div class="third width_120"></div>
+                <div class="forth width_120"></div>
+            </div>
+            <input type="text" class="add_list" placeholder="街道门牌号">
+        </div>
+
+        <div class="submit">
+            <button type="submit" disabled>提交</button>
+        </div>
+    </div>
+</section>
+<section id="my_order" class="checked_no">
+    <table class="table_list">
+        <thead>
+        <tr>
+            <th>订单信息</th>
+            <th>金额</th>
+            <th>下单时间</th>
+            <th>送货时间</th>
+            <th>状态</th>
+            <th>操作</th>
+        </tr>
+        </thead>
+        <tbody>
+        <!--由jquery 函数load_buyData(data_buy,'#my_order tbody')生成-->
+        </tbody>
+    </table>
+</section>
+<section id="my_sole" class="checked_no">
+    <div>我要出售</div>
+    <table class="table_list">
+        <thead>
+        <tr>
+            <th>订单信息</th>
+            <th>售卖金额</th>
+            <th>提交时间</th>
+            <th>下架时间</th>
+            <th>商品存储</th>
+            <th>商品状态</th>
+            <th>是否回款</th>
+            <th>操作</th>
+        </tr>
+        </thead>
+        <tbody>
+        <!--由jquery 函数load_buyData_sole(data_sole,'#my_sole tbody');生成-->
+        </tbody>
+    </table>
+    <p class="notice">
+        操作须知：审核未通过的订单请查看系统消息修改重新上传；<br>
+        每个订单仅能使用一次降价申请功能，如有疑问请联系客服。
+    </p>
+</section>
+<section id="my_count" class=" com_count checked_no">
+    <h1>个人账户</h1>
+    <div>
+        <p class="count">我的积分</p>
+        <p>
+            <span><i class="scoreNum" >200</i>分</span>
+            <span class="score_text text_b">您在户里网的任意消费都可获得积分，积分可直接抵扣商品金额</span>
+            <span class="text_b">查看<i class="score_rule">积分规则</i></span>
+        </p>
+    </div>
+</section>
+<section id="my_sys" class="com_sys checked_no">
+    <div class="sys_main">
+        <h1>系统消息</h1>
+        <div class="mes_con"></div>
+    </div>
+    <div class="del">删&nbsp;&nbsp;&nbsp;除</div>
+</section>
+<script src="js/user_infor.js"></script>
